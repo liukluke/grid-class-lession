@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  justify-items: center;
+  background-color: color(blue);
+  min-height: 100vh;
+  align-content: start; 
+  .container {
+    width: 100vw;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+}

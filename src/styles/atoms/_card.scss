@@ -1,0 +1,16 @@
+.card {
+  background-color: color(green);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: color(blue);
+  padding: 10px 0;
+  font-weight: 700;
+  a {
+    text-decoration: none;
+  }
+  &:active {
+    background-color: color(pink);
+  }
+}

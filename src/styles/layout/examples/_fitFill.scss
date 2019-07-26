@@ -1,0 +1,12 @@
+.fitFillWrapper {
+  display: grid;
+  grid-gap: 20px;
+  border: 5px solid yellow;
+  // grid-template-columns: repeat(auto-fill, 150px);
+  // justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, 150px);
+  // grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  .item-4 {
+    grid-column-end: -1;
+  }
+}

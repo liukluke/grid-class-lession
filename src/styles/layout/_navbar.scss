@@ -1,0 +1,11 @@
+nav {
+    width: 100vw;
+    height: 65px;
+    background-color: color(red);
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    i {
+        color: color(blue);
+    }
+}

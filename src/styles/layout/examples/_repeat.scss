@@ -1,0 +1,6 @@
+.repeatWrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 100px repeat(2, auto 1fr) 200px repeat(2, 5fr); 
+}
+
